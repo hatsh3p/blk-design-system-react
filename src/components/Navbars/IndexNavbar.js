@@ -79,8 +79,8 @@ export default function IndexNavbar() {
       <Container>
         <div className="navbar-translate">
           <NavbarBrand to="/" tag={Link} id="navbar-brand">
-            <span>BLK• </span>
-            Design System React
+            <span>MenuLab• </span>
+            Design Test Track
           </NavbarBrand>
           <UncontrolledTooltip placement="bottom" target="navbar-brand">
             Designed and Coded by Creative Tim
@@ -195,7 +195,7 @@ export default function IndexNavbar() {
                 target="_blank"
                 href="https://www.creative-tim.com/product/blk-design-system-pro-react?ref=bdsr-user-archive-index-navbar-upgrade-pro"
               >
-                <i className="tim-icons icon-spaceship" /> Upgrade to PRO
+                <i className="tim-icons icon-spaceship" /> Register
               </Button>
             </NavItem>
             <NavItem>
@@ -204,7 +204,7 @@ export default function IndexNavbar() {
                 color="default"
                 onClick={scrollToDownload}
               >
-                <i className="tim-icons icon-cloud-download-93" /> Download
+                <i className="tim-icons icon-single-02" /> Login
               </Button>
             </NavItem>
           </Nav>
